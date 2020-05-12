@@ -6,16 +6,6 @@ body{
     align-items: center;
 }
 
-form{
-    background-color: hsla(251, 100%, 71%, 0.66);
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    width: 600px;
-    margin-top: 80px;
-    border-radius: 2%;
-}
-
 header{
     display: flex;
     align-items: center;
@@ -24,54 +14,60 @@ header{
     font-weight: 800;
 }
 
-.formall{
+#survey-form{
     width: 100%;
-    padding: 1em ;
     display: flex;
-    flex-direction: row-reverse;
-    flex-direction: column-reverse; 
+    flex-direction: column;   
+    width: 700px;
+    background-color: cornsilk;
+    border-radius: 3%;
+    padding: 3% 3% 3% 3%;
 }
 
-section{
-    width: 100%;
+#name-label{
+    padding-bottom: 10px;  
 }
 
-select{
-    width: 93%;
+#email-label{
+    padding-top: 30px;
+    padding-bottom: 10px;
+}
+
+#number-label{
+    padding-top: 30px;
+    padding-bottom: 10px;  
+}
+
+#role-label{
+    padding-top: 30px;
+    padding-bottom: 10px;
+}
+
+form p{
+    padding-top: 15px;
 }
 
 #radio-div{
     display: flex;
-    flex-direction: column;  
-}
-
-.formall input{
-    width: 90%;
-}
-
-.buttons{
-    padding-left: 1em;
-    display: flex;
     flex-direction: column;
+    margin-bottom: 30px;
+}
+
+#feature-label{   
+    padding-bottom: 10px;
 }
 
 #check-div{
     display: flex;
-    flex-direction: column;  
+    flex-direction: column;
+    padding-bottom: 30px;
 }
 
 #comment{
-    width: 93%;
-    resize: vertical;
-    height: 90px;
-}
-
-#butn{
-    padding-left: 15px;
+    margin-top: 10px;
     margin-bottom: 20px;
-    
 }
 
 button{
-    width: 94%;
+    width: 100%;
 }
